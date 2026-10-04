@@ -1,32 +1,32 @@
-**# Devops (Servers) \& Networking**
+**# Devops (Servers) & Networking**
 
-\## Networking \& Server Basics
+## Networking & Server Basics
 
-\- \*\*Servers:\*\* Network Per Connected User ya devices Ko data Applications ya Services Provide Karta Hai.
+- **Servers:** Network Per Connected User ya devices Ko data Applications ya Services Provide Karta Hai.
 
-\- \*\*Client:\*\* Service maangta Hai (jaise: Mobile).
+- **Client:** Service maangta Hai (jaise: Mobile).
 
-\- \*\*Server:\*\* Service deta hai (jaise: YouTube).
+- **Server:** Service deta hai (jaise: YouTube).
 
-\- \*\*Network:\*\* Ek Medium of Communication Hai (jaise: Internet).
+- **Network:** Ek Medium of Communication Hai (jaise: Internet).
 
-\- \*\*URL:\*\* Uniform Resource Locator
+- **URL:** Uniform Resource Locator
 
-\- \*\*Domain Name:\*\* Website ka human Name Hota Hai jo IP address ki jagah use Kiya Jata Hai.
+- **Domain Name:** Website ka human Name Hota Hai jo IP address ki jagah use Kiya Jata Hai.
 
-\- \*\*IP Address:\*\* Hotel Ka Naam / Address
+- **IP Address:** Hotel Ka Naam / Address
 
-\- \*\*Port Number:\*\* Hotel Ka Room Number
+- **Port Number:** Hotel Ka Room Number
 
  **1. Apache Tomcat**
 
-\- Only Java ke liye or Choti Applications ke liye.
+- Only Java ke liye or Choti Applications ke liye.
 
-\- \*\*Run:\*\* `Tomcat Root folder` -> Go to `bin` -> Double click on `startup.bat`
+- **Run:** `Tomcat Root folder` -> Go to `bin` -> Double click on `startup.bat`
 
-\- \*\*Stop:\*\* `Tomcat Root folder` -> Go to `bin` -> Double Click on `shutdown.bat` (Alternative: `Ctrl + C`)
+- **Stop:** `Tomcat Root folder` -> Go to `bin` -> Double Click on `shutdown.bat` (Alternative: `Ctrl + C`)
 
-**\- \*\*Port Change:\*\***
+**- **Port Change:****
 
  - `conf` directory me jayein
 
@@ -36,7 +36,7 @@
 
  - Port change karein (8080 se 8081)
 
-**\- \*\*HTML File Run:\*\***
+**- **HTML File Run:****
 
  - `webapps` ke andar paste karein
 
@@ -44,15 +44,15 @@
 
 - Run: `localhost:8080/index.html`
 
-**\## 2. Wildfly (JBoss)**
+**## 2. Wildfly (JBoss)**
 
-\- Java ke liye or Badi Applications Ke liye.
+- Java ke liye or Badi Applications Ke liye.
 
-\- \*\*Run:\*\* `Root Folder` -> `bin` -> Double click on `standalone.bat` (`localhost:8080`)
+- **Run:** `Root Folder` -> `bin` -> Double click on `standalone.bat` (`localhost:8080`)
 
-\- \*\*Stop:\*\* Command Prompt me `Ctrl + C` press karein
+- **Stop:** Command Prompt me `Ctrl + C` press karein
 
-**\- \*\*Port Change:\*\***
+**- **Port Change:****
 
  - `standalone/configuration` me jayein
 
@@ -60,21 +60,21 @@
 
  - `socket-binding` line me port change karein
 
-**\- \*\*HTML File Run:\*\***
+**- **HTML File Run:****
 
  - `welcome-content` me file paste karein
 
- - Run: `localhost:8080/<file\_name>`
+ - Run: `localhost:8080/<file_name>`
 
-**\## 3. Nginx**
+**## 3. Nginx**
 
-\- Frontend Ke liye use Hota Hai (Default Port: 80).
+- Frontend Ke liye use Hota Hai (Default Port: 80).
 
-\- \*\*Run:\*\* Root folder CMD me type karein: `start nginx`
+- **Run:** Root folder CMD me type karein: `start nginx`
 
-\- \*\*Stop:\*\* `nginx -s stop`
+- **Stop:** `nginx -s stop`
 
-\- \*\*Port Change:\*\*
+- **Port Change:**
 
  - `conf/nginx.conf` ko Notepad me kholein
 
@@ -82,10 +82,10 @@
 
  - Reload ke liye: `nginx -s reload`
 
-**\- \*\*HTML File Run:\*\***
+**- **HTML File Run:****
 
  - `html` folder me paste karein
 
- - Run: `localhost/<file\_name>`
+ - Run: `localhost/<file_name>`
 
 
